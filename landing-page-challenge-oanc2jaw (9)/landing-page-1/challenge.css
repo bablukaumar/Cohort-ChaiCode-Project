@@ -1,0 +1,154 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  /* Add styles for navbar */
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  /* Add styles for the logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  margin: 10px 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo img {
+  /* Add styles for logo image */
+  border-radius: 50%;
+  object-fit: cover;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 10px 50px;
+}
+
+.nav-links a {
+  /* Add styles for nav links */
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  /* Add hover styles for nav links */
+  color: blue;
+}
+
+/* Hero section styles */
+.box {
+  background-image: url(./assets/chaigym.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+.hero {
+  /* Add styles for hero section */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.72);
+}
+.hero-content {
+  /* Add styles for hero content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 50px 0;
+}
+
+.hero-content h1 {
+  /* Add styles for hero heading */
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hero-content p {
+  /* Add styles for hero paragraph */
+  font-size: 15px;
+  color: white;
+}
+
+.cta-button {
+  /* Add styles for CTA button */
+  background-color: orange;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.cta-button:hover {
+  /* Add hover styles for CTA button */
+  color: white;
+  background-color: red;
+  transition: all 1s ease;
+}
+
+/* Features section styles */
+.features {
+  /* Add styles for features section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background-color: rgba(0, 0, 0, 0.717);
+  margin: 5px 50px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.feature {
+  border: 2px solid orange;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+.feature h3 {
+  /* Add styles for feature heading */
+  color: orange;
+  font-size: 16px;
+}
+
+.feature p {
+  /* Add styles for feature paragraph */
+  color: white;
+  font-size: 12px;
+}

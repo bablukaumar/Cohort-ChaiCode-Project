@@ -1,0 +1,163 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  /* Define header styles here */
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}
+
+.logo {
+  /* Define logo styles here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: rgba(134, 80, 10, 0.989);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo img {
+  /* Define image styles within the logo here */
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.nav-menu {
+  /* Define navigation menu styles here */
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+.nav-menu a {
+  /* Define navigation link styles here */
+  color: rgba(134, 80, 10, 0.989);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  /* Define hover styles for navigation links here */
+  color: orange;
+}
+
+/* Hero Section Styling */
+.hero {
+  position: relative;
+  background-image: url("./assets/chaipatti.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden; /* Ensures pseudo-element stays within the hero container */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Black overlay with 50% transparency */
+  z-index: 1;
+}
+
+.hero > * {
+  position: relative; /* Ensures text/content appears above the overlay */
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3em; /* Larger title font size */
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em; /* Medium-sized description text */
+  margin: 10px 0;
+  color: rgb(254, 243, 224);
+}
+
+.shop-button {
+  padding: 10px 20px;
+  background-color: rgba(255, 166, 0, 0.445); /* A warm color for the button */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.shop-button:hover {
+  background-color: orange;
+  color: white; /* Darker shade on hover */
+}
+
+.tea-collection {
+  /* Define tea collection section styles here */
+}
+
+.tea-collection h2 {
+  /* Define styles for h2 in tea collection here */
+  text-align: center;
+  margin: 15px 0;
+  color: rgba(134, 80, 10, 0.989);
+}
+
+.tea-cards {
+  /* Define tea cards container styles here */
+  display: grid;
+  grid-template-columns: repeat(3, 230px);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  /* grid-template-rows: 2; */
+}
+
+.tea-card {
+  /* Define styles for each tea card here */
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 1px gray;
+  border-radius: 12px;
+}
+
+.tea-card h3 {
+  /* Define styles for tea card headings here */
+  color: rgba(134, 80, 10, 0.989);
+}
+
+.tea-card p {
+  /* Define styles for tea card paragraph text here */
+  font-size: 13px;
+  color: gray;
+}

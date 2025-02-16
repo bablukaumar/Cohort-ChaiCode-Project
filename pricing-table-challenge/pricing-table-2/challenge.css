@@ -1,0 +1,181 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: gray;
+}
+
+.container {
+  /* Add your styles here */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-color: gray;
+}
+
+.header {
+  /* Add your styles here */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5px; */
+  margin-top: 20px;
+}
+
+h1 {
+  /* Add your styles here */
+  font-size: 38px;
+  color: red;
+  font-weight: 900;
+}
+
+.subtitle {
+  /* Add your styles here */
+  color: white;
+  font-size: 16px;
+}
+
+.pricing-container {
+  /* Add your styles here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.pricing-card {
+  /* Add your styles here */
+  /* border: 2px solid red; */
+  width: 250px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 1px #635e5e;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+}
+
+.card-header {
+  /* Add your styles here */
+  margin: 12px 8px;
+  color: #fff;
+}
+
+.icon {
+  /* Add your styles here */
+  font-size: 35px;
+}
+
+.popular-tag {
+  /* Add your styles here */
+  position: relative;
+  top: -25px;
+  display: inline-block;
+  background-color: rgba(248, 248, 18, 0.753);
+  color: black;
+  padding: 8px 12px;
+  border-radius: 13px;
+}
+
+.price-block {
+  /* Add your styles here */
+  background-color: rgb(99, 55, 55);
+  border-radius: 10px;
+  margin: 4px 40px;
+}
+
+.price {
+  /* Add your styles here */
+  color: red;
+  font-size: 20px;
+}
+
+.period {
+  /* Add your styles here */
+  color: white;
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.features {
+  /* Add your styles here */
+}
+
+.features li {
+  /* Add your styles here */
+  list-style: none;
+  margin: 14px 14px;
+  color: rgb(253, 247, 247);
+  text-align: start;
+}
+
+.features li.disabled {
+  /* Add your styles here */
+  color: rgb(211, 204, 204);
+}
+
+.join-btn {
+  /* Add your styles here */
+  border: 2px solid red;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: red;
+  margin: 20px 20px;
+  border-radius: 15px;
+  background-color: gray;
+  box-sizing: 1px 1px 1px 1px rgb(201, 192, 192);
+}
+
+.join-btn:hover {
+  /* Add your styles here */
+  background-color: green;
+  color: white;
+  transition: all 0.5s ease;
+}
+.start{
+  border: 2px solid  rgb(195, 161, 127);
+  color:  rgb(195, 161, 127);
+}
+
+/* Custom Class Modifiers */
+
+.beginner{
+  background-color: rgb(90, 80, 80);
+}
+.warrior {
+  /* Add your styles here */
+  background-color: rgb(136, 56, 56);
+}
+
+.champion {
+  /* Add your styles here */
+  background-color: rgb(140, 140, 45);
+}
+
+.champion .price {
+  /* Add your styles here */
+  color: yellow;
+}
+
+.champion .join-btn {
+  /* Add your styles here */
+  border: yellow 2px solid;
+  color: yellow;
+}
+
+.champion .join-btn:hover {
+  /* Add your styles here */
+  color: white;
+}

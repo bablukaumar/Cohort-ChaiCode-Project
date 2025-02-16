@@ -1,0 +1,125 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+.container {
+  /* Add your styles here */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /* Add your styles here */
+  
+  font-size: 30px;
+  margin: 20px 0;
+  color: #000000;
+}
+
+.pricing-heading {
+  /* Add your styles here */
+  display: flex;
+}
+
+.pricing-container {
+  /* Add your styles here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-card {
+  /* Add your styles here */
+  text-align: center;
+  margin: 10px 30px;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 1px gray;
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 20px;
+  padding: 10px 0 4px 4px;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+    border: 2px solid orange;
+      height: 430px;
+    
+  
+}
+
+.pricing-card.popular {
+  /* Add your styles here */
+    height: 450px;
+  
+}
+
+.popular-badge {
+  /* Add your styles here */
+  color: white;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  top: -26px;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+.price {
+  /* Add your styles here */
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-weight: 500;
+}
+
+.period {
+  /* Add your styles here */
+  font-size: 18px;
+  color: gray;
+}
+
+.features {
+  /* Add your styles here */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.features li {
+  /* Add your styles here */
+  list-style: none;
+  font-size: 18px;
+  color: gray;
+  
+}
+
+.subscribe-btn {
+  /* Add your styles here */
+  background-color: orange;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+.subscribe-btn:hover {
+  /* Add your styles here */
+  background-color: red;
+  color: white;
+  transition: all 0.5s ease;
+}
