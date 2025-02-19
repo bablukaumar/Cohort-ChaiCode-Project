@@ -11,10 +11,6 @@
 ![LandingPage-1,2,3](https://github.com/user-attachments/assets/ea61942f-4b5c-432e-87e3-c6079d2d0b7c "LandingPage-1,2,3")
 
 
-## challenge-02 landing page creating
-[source code landing-page](landing-page-challenge)
-![LandingPage](https://github.com/user-attachments/assets/5cb73200-5c98-4bb0-93c1-8114f5c17e00 "LandingPage")
-![LandingPage-1,2,3](https://github.com/user-attachments/assets/ea61942f-4b5c-432e-87e3-c6079d2d0b7c "LandingPage-1,2,3")
 
 ## Priceing Table
 [Source Code Priceing-table](pricing-table-challenge)
