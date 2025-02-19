@@ -1,0 +1,50 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: white;
+}
+.header{
+    /* border: 2px solid red; */
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+
+}
+.items{
+    list-style: none;
+}
+.items a{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.dark-button{
+    /* padding: 6px; */
+}
+.items button{
+    font-size: 22px;
+    padding: 8px 6px;
+    color: darkgray;
+    font: bold;
+    border: none;
+    border-radius: 40px;
+    background-color: black;
+} 
+#icon{
+    width: 60px;
+    height: 40px;
+    font-size: 35px;
+     
+}
