@@ -24,7 +24,7 @@
 ## Them Background color change. Basic-js-project
 [Source Code](Basic-js-project/ColorMode "BabluSarkar") 
 
-![SwitchToggle](https://github.com/user-attachments/assets/c8e10041-3ada-4480-8e61-4d72e7b6d3b9 "SwitchToggle")
+![SwitchToggle](https://github.com/user-attachments/assets/15a674cd-cb71-4a03-ada8-c3262acb6643 "SwitchToggle")
 
 
 ## Todo for Managing daily my task.
