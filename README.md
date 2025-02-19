@@ -7,11 +7,20 @@
 ![image](https://github.com/user-attachments/assets/5cb73200-5c98-4bb0-93c1-8114f5c17e00)
 ![image](https://github.com/user-attachments/assets/ea61942f-4b5c-432e-87e3-c6079d2d0b7c)
 
+'''bash
+npm run dev
+#or 
+yarn dev
+'''
+
+ctr+shift + V
+
 
 
 
 
 ## Them Background color change. Basic-js-project 
+
 ![image](https://github.com/user-attachments/assets/c8e10041-3ada-4480-8e61-4d72e7b6d3b9)
 
 
