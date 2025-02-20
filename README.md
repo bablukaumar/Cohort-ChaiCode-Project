@@ -30,3 +30,9 @@
 ## Todo for Managing daily my task.
 [source code DoTo](TODO)
 ![ToDo](https://github.com/user-attachments/assets/7e2a3b98-f31e-462d-98be-16e9c4e4aa03 "ToDo")
+
+
+## BMI (Body Mask Index) Calculator.
+[source code DoTo](Calculator-BMI)
+![image](https://github.com/user-attachments/assets/96a1e060-afe2-44f4-9766-c147fc7f242b)
+
