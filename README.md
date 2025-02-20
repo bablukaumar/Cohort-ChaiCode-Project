@@ -33,6 +33,7 @@
 
 
 ## BMI (Body Mask Index) Calculator.
-[source code DoTo](Calculator-BMI)
-![image](https://github.com/user-attachments/assets/96a1e060-afe2-44f4-9766-c147fc7f242b)
+[source code BMI Calculator](Calculator-BMI)
+![image](https://github.com/user-attachments/assets/2806ef61-599a-4663-8b14-d35eab6fe248)
+
 
