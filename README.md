@@ -22,11 +22,11 @@
 
 
 ## Them Background color change. Basic-js-project
-[Source Code](Basic-js-project/ColorMode "BabluSarkar") 
+[Source Code](ColorMode "BabluSarkar") 
 
 ![SwitchToggle](https://github.com/user-attachments/assets/15a674cd-cb71-4a03-ada8-c3262acb6643 "SwitchToggle")
 
 
 ## Todo for Managing daily my task.
-[source code DoTo](Basic-js-project/TODO)
+[source code DoTo](TODO)
 ![ToDo](https://github.com/user-attachments/assets/7e2a3b98-f31e-462d-98be-16e9c4e4aa03 "ToDo")
