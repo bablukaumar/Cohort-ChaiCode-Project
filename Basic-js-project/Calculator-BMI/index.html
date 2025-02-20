@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Measurement App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../TODO/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="bmi-heading">BMI Calculator</h1>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-link">
+          <li class="nav-items" id="items1"><a href="#">Home</a></li>
+          <li class="nav-items"><a href="#">About</a></li>
+          <li class="nav-items"><a href="#">Contact</a></li>
+          <li class="nav-items"><a href="#">ToDo</a></li>
+          <button class="button" id="button">
+            <i class="ri-moon-line" id="icon"></i>
+          </button>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="input-box">
+          <input
+            type="number"
+            name="weight"
+            id="weight"
+            class="input"
+            placeholder="Enter your weight."
+            value="45"
+          />
+          <div>
+            <select class="option" id="option-weight">
+              <option value="kilogram">Kilogram</option>
+              <option value="gram">Gram</option>
+              <option value="milligram">Milligram</option>
+              <option value="pound">Pound</option>
+              <option value="ounce">Ounce</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <input
+            type="number"
+            name="height"
+            id="height"
+            class="input"
+            value="164"
+            placeholder="Enter your height."
+          />
+          <div>
+            <select class="option" id="option-height">
+              <option value="centimeter">Centimeter</option>
+              <option value="meter">Meter</option>
+              <option value="foot">Foot</option>
+              <option value="inch">Inch</option>
+            </select>
+          </div>
+        </div>
+        <div class="button-box">
+          <button id="calculate">Calculate BMI</button>
+        </div>
+      </div>
+      <div class="result" id="result-box">
+        <h1 id="BMIWeight">Check Your BMI</h1>
+        <h1 id="BMIHeight"></h1>
+        <h1 id="indexValue"></h1>
+        <p id="BMIResult"></p>
+        <div id="suggestion">
+          <p id="medical"></p>        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+  <script src="../TODO/script.js"></script>
 </html>
